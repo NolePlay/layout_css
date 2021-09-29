@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+#title {
+    text-align: center;
+    color: teal;
+    text-shadow: grey;
+}
